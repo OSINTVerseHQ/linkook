@@ -50,6 +50,16 @@ python setup.py install
 linkook {username}
 ```
 
+### Install with OTinstaller
+
+On Linux, [OTinstaller](https://github.com/OSINTVerseHQ/OTinstaller) can install the PyPI release into its own virtualenv. It is a third-party tool manager, so please report problems with it [on the OTinstaller tracker](https://github.com/OSINTVerseHQ/OTinstaller/issues).
+
+```shell
+pipx install otinstaller
+otinstaller install linkook
+otinstaller run linkook -- {username}
+```
+
 ## Usage
 
 ### `--show-summary`
