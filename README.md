@@ -56,6 +56,7 @@ On Linux, [OTinstaller](https://github.com/OSINTVerseHQ/OTinstaller) can install
 
 ```shell
 pipx install otinstaller
+otinstaller init
 otinstaller install linkook
 otinstaller run linkook -- {username}
 ```
